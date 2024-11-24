@@ -1,0 +1,124 @@
+\documentclass[11pt,a4paper]{report}
+\usepackage{tocloft}
+\usepackage{xltxtra} 
+
+\usepackage{iflang} 
+%---------------------------------------------------------------------font-------------------------------------------------------------%
+%layout
+\setlength{\voffset}{0.125cm}
+%\setlength{\hoffset}{1.5pt}
+\oddsidemargin = 1cm
+%\marginparwidth = -3pt
+\headsep = 10pt
+\textwidth = 426pt
+\textheight = 720pt
+\topmargin = -23pt
+\usepackage[top=1in]{geometry}
+%layout
+\usepackage{calligra}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+%---------------------------------------------------------------------chapter1-------------------------------------------------------------%
+\usepackage{graphics}
+\usepackage{titlesec}
+\titleformat{\Chapter}[display]
+  {\normalfont\Large\raggedleft}
+  {\MretakeUppercase{บทที่}%
+    \rlap{ \resizebox{!}{1.5cm}{\thechapter} \rule{5cm}{1.5cm}}}
+  {10pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{30pt}{20pt}
+
+\usepackage{lipsum}
+\setcounter{chapter}{0}
+%---------------------------------------------------------------------chapter2-------------------------------------------------------------%
+\titleformat{\chapter}{\normalfont\Huge\bfseries}{\thechapter}{15pt}{}
+\titlespacing*{\chapter}{0pt}{-\baselineskip}{20pt}
+%---------------------------------------------------------------------chapterE-------------------------------------------------------------%
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage{graphicx}
+%---------------------------------------------------------------------thainumb-------------------------------------------------------------%
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{layout}
+\usepackage{floatrow}
+\usepackage{filecontents}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}
+\usepackage{subcaption}
+\usetikzlibrary{plotmarks}
+\usepackage{adjustbox}
+\usepackage{xfrac}
+\usepackage{xcolor}
+\usepackage[tbtags]{amsmath}
+
+\pagenumbering{gobble}
+
+\begin{document}
+\text{ }
+\vspace{1.5cm}
+\begin{center}
+    {\fontsize{40pt}{40pt}\normalfont\calligra Straw Mushroom}\par
+    \vspace{2cm}
+    \LARGE \textbf{Submitted By}\par
+    \vspace{0.5cm}
+    \LARGE \textbf{Group 4}\par
+    \vspace{0.5cm}
+
+    \arabicnumbering
+    \begin{center}
+        \begin{tabular}{c c l}
+            Piyawat Wiriyayothin & 6710545717 & President\\
+            Amornrit Sirikham & 6710545989 & Vice-President\\
+            Paranyu Kittinavakit & 6710545784 & Board\\
+            Chaiyapat Kumtho & 6710545521 & Treasurer\\
+            Pasin Tongtip & 6710545741 & Secretary\\
+            Pattadon Udompaipeuk & 6710545750 & Assistant Secretary
+        \end{tabular}
+    \end{center}
+    \vspace{1cm}
+    {\LARGE Faculty of Engineer (IUP) section 450}\\
+    \vspace{1cm}
+    {\LARGE \textbf{Submitted to}}\par
+    \vspace{0.5cm}
+
+    \LARGE{Teachers Committee of Food for Mankind}\\
+    \vspace{1cm}
+    \LARGE \textbf{Course 01999011-67 Food for Mankind}\par\\
+    \LARGE \textbf{Semester 1 / 2567}\par 
+    \vspace{0.5cm}
+    \LARGE \textbf{Kasetsart University. Bang Khen}
+\end{center}
+\clearpage
+
+\pagenumbering{Roman}
+
+\input{Chapters/preface.tex}
+\clearpage
+
+\pagenumbering{arabic}
+\input{Chapters/contants.tex}
+\clearpage
+\input{Chapters/intro.tex}
+\clearpage
+\input{Chapters/history.tex}
+\clearpage
+\input{Chapters/nutrition.tex}
+\clearpage
+\input{Chapters/grow.tex}
+\clearpage
+\input{Chapters/product.tex}
+\clearpage
+\input{Chapters/pros.tex}
+\clearpage
+\input{Chapters/cons.tex}
+\clearpage
+\input{Chapters/ref.tex}
+\clearpage
+
+\end{document}
