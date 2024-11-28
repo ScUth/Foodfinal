@@ -1,7 +1,9 @@
 \documentclass[11pt,a4paper]{report}
 \usepackage{tocloft}
 \usepackage{xltxtra} 
-
+\XeTeXlinebreaklocale "th"
+\XeTeXlinebreakskip = 0pt plus 1pt   %
+\font\T = "TH SarabunPSK" at 20pt
 \usepackage{iflang} 
 %---------------------------------------------------------------------font-------------------------------------------------------------%
 %layout
@@ -19,6 +21,9 @@
 \usepackage{lmodern}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
+
+\usepackage{xeCJK}
+\setCJKmainfont{SimSun}
 
 %---------------------------------------------------------------------chapter1-------------------------------------------------------------%
 \usepackage{graphics}

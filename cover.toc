@@ -1,11 +1,17 @@
 \selectlanguage *[]{latex}
 \contentsline {chapter}{Preface}{I}{section*.1}%
-\contentsline {chapter}{Contant}{1}{section*.2}%
+\contentsline {chapter}{Content}{1}{section*.2}%
 \contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
 \contentsline {chapter}{\numberline {2}History}{3}{chapter.2}%
 \contentsline {chapter}{\numberline {3}Nutrition}{4}{chapter.3}%
 \contentsline {chapter}{\numberline {4}How to grow}{5}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Product}{6}{chapter.5}%
 \contentsline {chapter}{\numberline {6}Pros}{7}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Cons}{8}{chapter.7}%
-\contentsline {chapter}{Reference}{9}{chapter*.4}%
+\contentsline {section}{\numberline {6.1}Rich in Nutrients}{7}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Low in Calories}{7}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Supports Heart Health}{7}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Promotes Healthy Digestion}{8}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Supports Blood Sugar Control}{9}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Boosts Immune System}{9}{section.6.6}%
+\contentsline {chapter}{\numberline {7}Cons}{10}{chapter.7}%
+\contentsline {chapter}{Reference}{13}{chapter*.15}%
