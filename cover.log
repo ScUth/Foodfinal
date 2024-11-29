@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.14)  30 NOV 2024 00:49
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.14)  30 NOV 2024 01:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1454,11 +1454,15 @@ File: Picture7 (2).png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)
+
 
 [14]
 
-[15] (Chapters/pros.tex
+[15]
+
+[16])
+
+[17] (Chapters/pros.tex
 Chapter 6.
 File: Picture8.jpg Graphic file (type bmp)
 <Picture8.jpg>
@@ -1472,7 +1476,7 @@ File: Picture12.jpg Graphic file (type bmp)
 <Picture12.jpg>
 
 
-[16
+[18
 
 
 ]
@@ -1480,7 +1484,7 @@ File: Picture13.jpg Graphic file (type bmp)
 <Picture13.jpg>
 
 
-[17]
+[19]
 File: Picture14.jpg Graphic file (type bmp)
 <Picture14.jpg>
 File: Picture3 (2).png Graphic file (type bmp)
@@ -1498,16 +1502,14 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[18]
+[20]
 File: Picture4 (2).png Graphic file (type bmp)
 <Picture4 (2).png>
 File: Picture5 (2).png Graphic file (type bmp)
 <Picture5 (2).png>
 )
 
-[19]
-
-[20] (Chapters/cons.tex
+[21] (Chapters/cons.tex
 Chapter 7.
 File: Picture1.jpg Graphic file (type bmp)
 <Picture1.jpg>
@@ -1515,7 +1517,7 @@ File: Picture2.png Graphic file (type bmp)
 <Picture2.png>
 
 
-[21
+[22
 
 
 ]
@@ -1531,9 +1533,9 @@ File: Picture7.png Graphic file (type bmp)
 <Picture7.png>
 )
 
-[22]
+[23]
 
-[23] (Chapters/ref.tex
+[24] (Chapters/ref.tex
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1568,12 +1570,12 @@ Missing character: There is no า in font ec-lmr17!
 Missing character: There is no ง in font ec-lmr17!
 
 
-[24
+[25
 
 
 ]
 
-[25]
+[26]
 Overfull \hbox (34.16408pt too wide) in paragraph at lines 39--40
 []\T ดร.จำลอง เพ็ง คล้าย\T1/lmr/m/n/16 . (2550). \T เห็ด ใน ประเทศไทย. กรุงเทพฯ
 : ราชบัณฑิตยสถาน.
@@ -1604,23 +1606,23 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[26])
+[27])
 
-[27] (cover.aux)
+[28] (cover.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2022/08/05>
  ***********
 Package rerunfilecheck Info: File `cover.out' has not changed.
-(rerunfilecheck)             Checksum: 8F8E8D01E742FC2A2BD4A0E7A49DAADD;5987.
+(rerunfilecheck)             Checksum: E4E83492DAD1A161DE9AA0C7A0403928;6929.
  ) 
 Here is how much of TeX's memory you used:
- 43375 strings out of 409028
- 1048573 string characters out of 5761997
- 1655146 words of memory out of 5000000
- 65403 multiletter control sequences out of 15000+600000
+ 43377 strings out of 409028
+ 1048599 string characters out of 5761997
+ 1655153 words of memory out of 5000000
+ 65405 multiletter control sequences out of 15000+600000
  644894 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,10n,107p,1174b,971s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on cover.pdf (29 pages).
+Output written on cover.pdf (30 pages).
